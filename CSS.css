@@ -1,0 +1,343 @@
+body{
+	background:linear-gradient(rgb(6,33,63),white,white,rgb(6,33,63));
+	font-family:Tahoma,sans-serif;
+}
+
+.page{
+	width:1000px;
+	height:auto;
+}
+
+.header{
+	width:1000px;
+	height:100px;
+}
+
+.page .header.logo{
+	width:66px;
+	height:71px;
+	background-image:url("images/header logo.png");
+}
+
+.header h1{
+	color:#eeeeee;
+	float:left;
+}
+
+.header h3{
+	color:#eeeeee;
+	float:left;
+	position:absolute;
+	top:50px;
+}
+
+.header h4{
+	color:#eeeeee;
+	float:right;
+	position:relative;
+	top:20px;
+	right:220px;
+}
+
+.header input{
+	position:relative;
+	top:40px;
+	left:230px;
+	border-radius:10px;
+}
+
+.mainmenu{
+	width:1000px;
+	height:30px;
+	background-color:black;
+	border-radius:10px;
+	margin-top:50px;
+	
+}
+
+.mainmenu a{
+	color:#eeeeee;
+	text-decoration:none;
+	font-size:12;
+	position:relative;
+	top:5px;
+}
+
+.mainmenu a:hover{
+	color:black;
+	background-color:white;
+}
+
+.body{
+	width:1000px;
+	height:700px;
+	background-color:white;
+	margin-top:20px;
+	border-radius:10px;
+	position:relative;
+}
+
+.body .submenu{
+	width:290px;
+	height:690px;
+	background-color:rgb(133,153,147);
+	border-radius:10px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+
+.body .submenu h2{
+	color:#eeeeee;
+	background-color:black;
+}
+
+.body .submenu .sublinks{
+	width:280px;
+	height:613px;
+	background-color:lightblue;
+	border-radius:10px;
+	border-style:double;
+}
+.body .submenu .sublinks .sublinksbox{
+	width:280px;
+	height:80px;
+	border-bottom-style:dotted;
+	background-color:rgb(133,153,147);
+}
+
+.sublinksbox a{
+	color:#eeeeee;
+	position:relative;
+	top:40px;
+	text-decoration:none;
+	font-size:12;
+}
+
+.sublinksbox a:hover{
+	color:black;
+	background-color:white;
+}
+
+.body .content{
+	width:690px;
+	height:690px;
+	background-color:rgb(133,153,147);
+	border-radius:10px;
+	position:absolute;
+	top:5px;
+	left:305px;
+}
+
+.body .content .data{
+	width:680px;
+	height:670px;
+	background-color:rgb(133,153,147);
+	border-radius:10px;
+	margin-top:10px;
+	border-style:double;
+	position:relative;
+	float:left;
+	margin-right:1px;
+}
+
+.body .content .data .form{
+	float:left;
+	margin-left:20px;
+	color:#eeeeee;
+	font-size:12;
+	position:relative;
+	top:25px;
+	text-align:justify;
+}
+
+.body .content .data h2{
+	color:#eeeeee;
+	background-color:black;
+}
+
+
+.body .content .data .computing{
+	color:#eeeeee;
+	float:left;
+	font-size:12;
+}
+
+
+
+.body .content .data h4{
+	color:#eeeeee;
+	float:left;
+	position:relative;
+	margin-left:10px;
+	float:left;
+}
+
+.body .content .data h3{
+	color:#eeeeee;
+	float:left;
+}
+
+.body .content .data p{
+	color:#eeeeee;
+	text-align:justify;
+	padding-left:10px;
+	font-size:12;
+}
+
+.body .content .data .contentimage{
+	width:660px;
+	height:280px;
+	background-color:white;
+	background-image:url("images/kch-bp131015-eh-education.p.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .achievementimage{
+	width:630px;
+	height:290px;
+	background-color:white;
+	background-image:url("images/aoty.05.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .awardsimage{
+	width:600px;
+	height:295px;
+	background-color:white;
+	background-image:url("images/the-awards.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .campuslifeimage{
+	width:580px;
+	height:280px;
+	background-color:white;
+	background-image:url("images/Bullying-in-College.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .internationalstudentsimage{
+	width:550px;
+	height:260px;
+	background-color:white;
+	background-image:url("images/internationalstudentprogram_0.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .researchimage{
+	width:660px;
+	height:295px;
+	background-color:white;
+	background-image:url("images/female-scientist1.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .eventimage{
+	width:600px;
+	height:295px;
+	background-color:white;
+	background-image:url("images/18COMME_SPAN-articleLarge_600_360_80.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data .InternationalCollaborationsimage{
+	width:660px;
+	height:295px;
+	background-color:white;
+	background-image:url("images/kyrgyz-group.jpg");
+	border-radius:10px;
+	position:relative;
+	top:40px;
+}
+
+.body .content .data table{
+	color:#eeeeee;
+	text-align:justify;
+	padding-left:10px;
+	font-size:12;
+	position:relative;
+	top:20px;
+}
+
+.imagebox{
+	width:1000px;
+	height:300px;
+	background-color:white;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+.imagebox .image{
+	width:980px;
+	height:280px;
+	background-image:url("images/9878-3336-7236-6289_1.jpg");
+	border-style:double;
+	border-width:2px;
+	position:relative;
+	top:8px;
+}
+
+.imagebox .image:hover{
+	background-image:url("images/global.jpg");
+}
+
+.footer{
+	width:1000px;
+	height:80px;
+	background-color:lightblue;
+	border-radius:10px;
+	margin-top:20px;
+	border-style:double;
+}
+
+.footer .box{
+	width:980px;
+	height:60px;
+	background-color:rgb(133,153,147);
+	border-radius:10px;
+	margin-top:10px;
+}
+
+.footer .submenu{
+	width:980px;
+	height:30px;
+	color:#eeeeee;
+	background-color:black;
+	border-radius:10px;
+	position:relative;
+	left:1px;
+}
+
+.footer .submenu a{
+	color:#eeeeee;
+	text-decoration:none;
+	font-size:12;
+	position:relative;
+	top:5px;
+}
+
+.footer .submenu a:hover{
+	color:black;
+	background-color:white;
+	
+}
+
+.footer .box .submenu h6{
+	position:relative;
+	bottom:8px;
+}
